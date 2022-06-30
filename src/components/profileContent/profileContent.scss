@@ -1,0 +1,99 @@
+.profileContent{
+    //background-color: lightgrey;
+    border: 1px solid lightgray;
+    flex: 5;
+    .user__info{
+        .top__content{
+            .top__bar{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .left{
+                    padding: 20px;
+                }
+                .right{
+                    .main__text{
+                        font-weight: 600;
+                        font-size: 20px;
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                    }
+                    .sub__text{
+                        font-size: 14px;
+                        color: rgb(74, 74, 74);
+                    }
+                }
+            }
+            .image__bar{
+                position: relative;
+                .banner__img{
+                    width: 100%;
+                }
+                .profile__img{
+                    width: 120px;
+                    border-radius: 100%;
+                    position: absolute;
+                    top: 180px;
+                    left: 40px;
+                    border: 4px solid white;
+                }
+            }
+        }
+        .bottom__content{
+            display: flex;
+            flex-direction: column;
+            .top__items{
+                display: flex;
+                justify-content:flex-end;
+                margin-top: 20px;
+                margin-right: 20px;
+                button{
+                    padding: 15px 30px;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    background-color: #1D9BF0;
+                    border: none;
+                    border-radius: 25px;
+                    cursor: pointer;
+                }
+            }
+            .bottom__items{
+                padding: 30px;
+                padding-top: 0;
+                display: flex;
+                flex-direction: column;
+                .title{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    align-items: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                .username{
+                    color: rgb(142, 142, 142);
+                    margin-bottom: 20px;
+                }
+                .desc{
+                    margin-bottom: 20px;
+                }
+                .stats{
+                    .following{
+                        padding: 10px;
+                        padding-left: 0;
+                        font-size: 17px;
+                        .count{
+                            font-weight: 600;
+                        }
+                        .text{
+                            padding: 5px;
+                            color: rgb(142, 142, 142);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.bottomBar{
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #1d9cf0e2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    .text__container{
+        .main__text{
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+    }
+    .button__container{
+        display: flex;
+        flex: row;
+        gap: 10px;
+        padding-right: 10%;
+        .button__login{
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            background-color: #1d9cf0e3;
+            border: 1px solid rgba(255, 255, 255, 0.941);
+        }
+        .button__signin{
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            color: rgb(74, 74, 74);
+        }
+    }
+}
